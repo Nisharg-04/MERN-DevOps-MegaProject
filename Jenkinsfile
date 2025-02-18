@@ -3,7 +3,7 @@ pipeline {
     agent any
     environment{
         SONAR_HOME = tool "Sonar"
-        AWS_CREDENTIALS_ID = 'aws-credentials'
+        AWS_CREDENTIALS_ID = 'aws-credentials' 
     }
     
     parameters {
